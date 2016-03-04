@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Lab1UI</string>
+    <string name="TextField_Name">Nombre</string>
+    <string name="TextFieldLastName">Apellido</string>
+    <string name="RadioButton_Female">Mujer</string>
+    <string name="RadioButton_Male">Hombre</string>
+    <string name="Button_Save">Guardar</string>
+    <string name="TextField_Country">Pais</string>
+    <string name="TextField">Telefono</string>
+    <string name="TextField_Address">Dirección</string>
+    <string name="TextField_Email">Correo electronico</string>
+    <string name="CheckBox_Favorite">Favorito</string>
+    <string-array name="ComboBox_Hobbies">
+        <item>Futbol</item>
+        <item>Básquetbol</item>
+        <item>Alpinismo</item>
+    </string-array>
+    <string-array name="countries">
+        <item>España</item>
+        <item>Portugal</item>
+        <item>Andorra</item>
+        <item>Francia</item>
+        <item>Inglaterra</item>
+        <item>Alemania</item>
+        <item>Italia</item>
+        <item>Colombia</item>
+    </string-array>
+    <string name="AutoComple_Countries">Tu País</string>
 </resources>

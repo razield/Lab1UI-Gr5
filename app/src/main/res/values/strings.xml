@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Lab1UI-Gr5</string>
+    <string name="TextField_Name">Name</string>
+    <string name="TextFieldLastName">Last Name</string>
+    <string name="RadioButton_Female">Female</string>
+    <string name="RadioButton_Male">Male</string>
+    <string name="Button_Save">Save</string>
+    <string name="TextField_Country">Country</string>
+    <string name="TextField">Phone</string>
+    <string name="TextField_Address">Adrdess</string>
+    <string name="TextField_Email">Email</string>
+    <string name="CheckBox_Favorite">Favorite</string>
+    <string-array name="ComboBox_Hobbies">
+        <item>Football Soccer</item>
+        <item>Basketball</item>
+        <item>mountaineering</item>
+    </string-array>
+    <string-array name="countries">
+         <item>Spain</item>
+        <item>Portugal</item>
+        <item>Andorra</item>
+        <item>France</item>
+        <item>England</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>Colombia</item>
+    </string-array>
+    <string name="AutoComple_Countries">Your Contry</string>
 </resources>

@@ -29,15 +29,19 @@ public class MainActivity extends AppCompatActivity {
     Toast check;
     TextView vista;
     Spinner s;
+    AutoCompleteTextView autoCompleteTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        spinnerArray = new String[]{"hobbie1", "hobbie2", "hobbie3..."};
-
+        String countries[], A;
+        autoCompleteTextView = (AutoCompleteTextView)findViewById(R.id.country);
+        countries = getResources().getStringArray(R.array.countries);
+        ArrayAdapter<String> adp = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, countries);
+        autoCompleteTextView.setAdapter(adp);
         s = (Spinner) findViewById(R.id.hobbies);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, spinnerArray);
+        ArrayAdapter<CharSequence> adapter =  ArrayAdapter.createFromResource(this,R.array.ComboBox_Hobbies,android.R.layout.simple_spinner_dropdown_item);
         s.setAdapter(adapter);
         //Capturando para el text view
 
