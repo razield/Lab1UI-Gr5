@@ -8,11 +8,11 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     tools:context="lab1ui.gr5.compumovil.udea.edu.co.lab1ui.MainActivity"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="3">
     <RelativeLayout
         android:id="@+id/layout34"
@@ -120,8 +120,8 @@
 
     <LinearLayout
         android:id="@+id/layout14"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="1"
         android:weightSum="1">
@@ -132,7 +132,7 @@
             android:id="@+id/view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scrollbars="horizontal"/>
+            android:scrollbars="vertical"/>
         </ScrollView>
 
         <Button
